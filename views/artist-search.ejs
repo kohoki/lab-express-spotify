@@ -1,0 +1,11 @@
+
+<% info.forEach(element => { %>
+    <h1><%- element.name %></h1>
+    <% if (element.images.length > 0) { %>
+        <img src="<%- element.images[0].url %>">
+    <% } %>
+    <button>View Album</button>
+<% }); %>
+
+
+
